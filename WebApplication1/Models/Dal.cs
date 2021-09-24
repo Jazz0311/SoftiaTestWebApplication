@@ -41,7 +41,7 @@ namespace WebApplication1.Models
                 Id = id,
                 Convention = convention,
                 Etudiant = etudiant,
-                Message = "Bonjour " + etudiant.Nom + " " + etudiant.Prenom +Environment.NewLine+"Vous avez suivi " + convention.NbHeur  + Environment.NewLine + "Heures "+" de formation chez Formation plus." + "\n" + "Pouvez-vous nous retourner ce mail avec la pièce jointe signée." + "\n" + "Cordialement," + "\n" + "FormationPlus"
+                Message = "Bonjour " + etudiant.Nom + " " + etudiant.Prenom +Environment.NewLine+"Vous avez suivi " + convention.NbHeur  + Environment.NewLine + "Heures "+" de formation chez FormationPlus." + "\n" + "Pouvez-vous nous retourner ce mail avec la pièce jointe signée." + "\n" + "Cordialement," + "\n" + "FormationPlus"
 
             };
 
