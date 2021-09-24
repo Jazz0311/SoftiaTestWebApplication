@@ -1,0 +1,28 @@
+﻿@model WebApplication1.Models.Etudiant
+@{
+
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>FormationPlus</title>
+</head>
+<body>
+    @using (Html.BeginForm())
+    {
+        <div>FormationPlus</div>
+
+        <h1> @Html.DropDownListFor(x => x.NomComplet, new SelectList(ViewBag.listEtudiants, "NomComplet", "NomComplet"))</h1>
+
+        <div>
+          
+        </div>
+
+        <input type="submit" value="Soumettre" />
+    }
+</body>
+</html>
+
